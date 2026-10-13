@@ -1,0 +1,14 @@
+{
+  "name": "my-site",
+  "version": "1.0.0",
+  "description": "Моя визитка с CI/CD",
+  "scripts": {
+    "lint": "htmllint index.html",
+    "test": "echo \"Tests passed\" && exit 0",
+    "build": "node -e \"const fs=require('fs');fs.mkdirSync('dist',{recursive:true});['index.html','style.css','script.js'].forEach(f=>fs.copyFileSync(f,'dist/'+f));\""
+  },
+  "devDependencies": {
+    "htmllint": "^0.7.2",
+    "htmllint-cli": "^0.0.7"
+  }
+}

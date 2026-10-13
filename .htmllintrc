@@ -1,0 +1,10 @@
+{
+  "attr-bans": [],
+  "indent-style": "spaces",
+  "indent-width": 4,
+  "line-max-len": false,
+  "spec-char-escape": false,
+  "tag-bans": [],
+  "line-end-style": false,
+  "id-class-style": false
+}
