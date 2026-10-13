@@ -1,3 +1,5 @@
+![CI/CD](https://github.com/Timskrill/my-site/actions/workflows/ci-cd.yml/badge.svg)
+
 # My Site
 
 Моя визитка с автоматическим CI/CD через GitHub Actions.
